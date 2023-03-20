@@ -1,0 +1,43 @@
+/* GENERAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.boxed{
+    width: 1200px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.justifySB{
+    justify-content: space-between;
+}
+
+.w40{width: 40%;}
+
+
+header{
+    height: 80px;
+    background-color: #0084fd;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.inLineList{
+    list-style-type: none;
+}
+
+/* HEADER */
+
+header > nav{
+    align-items: center;
+    height: 100%;
+}
