@@ -51,6 +51,8 @@ header > nav{
 
 #logoSection{
     height: 870px;
+    display: flex;
+    justify-content: center;
 }
 
 #logoSection > div > div{
@@ -62,8 +64,8 @@ header > nav{
 /* MAIN */
 
 #scatolaLoghi{
-    height: 100%;
-    margin: 2rem 0 4rem 0;
+    height: 90%;
+    margin-top: 2rem;
     
 }
 
@@ -73,4 +75,9 @@ header > nav{
 
 .wBox{
     width: calc(100%/3 - 30px);
+}
+
+#appDevelopSection{
+    height: 920px;
+    background-color: #9792e4;
 }
