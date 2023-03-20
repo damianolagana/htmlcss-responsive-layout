@@ -10,15 +10,22 @@
     margin: auto;
 }
 
+img{
+    max-width: 100%;
+}
+
 .flex{
     display: flex;
+}
+
+.flexWrap{
+    flex-wrap: wrap;
 }
 
 .justifySB{
     justify-content: space-between;
 }
 
-.w40{width: 40%;}
 
 
 header{
@@ -40,4 +47,30 @@ a{
 header > nav{
     align-items: center;
     height: 100%;
+}
+
+#logoSection{
+    height: 870px;
+}
+
+#logoSection > div > div{
+    background-color: #b5ddff;
+    height: 50px;
+    height: calc(100%/2 - 30px);
+}
+
+/* MAIN */
+
+#scatolaLoghi{
+    height: 100%;
+    margin: 2rem 0 4rem 0;
+    
+}
+
+.wDoubleBox{
+    width: calc(100%/3 * 2 - 15px);
+}
+
+.wBox{
+    width: calc(100%/3 - 30px);
 }
