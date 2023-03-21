@@ -19,6 +19,11 @@ body{
     margin: auto;
 }
 
+.boxed3{
+    max-width: 600px;
+    margin: auto;
+}
+
 img{
     max-width: 100%;
 }
@@ -208,7 +213,7 @@ header > nav{
 }
 
 .benefitBox{
-    padding: 10px;
+    padding: 1rem 2rem 2rem 1rem;
     background-color: white;
     border-radius: 20px;
 }
@@ -222,6 +227,12 @@ header > nav{
     padding: 1rem 0 1rem 0;
     line-height: 1.5rem;
     color: grey;
+}
+
+#benefitSection button{
+    border: none;
+    padding: 5px 30px;
+    
 }
 
 /* ABOUT US SECTION */
@@ -254,4 +265,61 @@ header > nav{
 #sectionAboutUs button{
     border: none;
     padding: 5px;
+}
+
+/* GET STARTED SECTION */
+
+#sectionGetStarted > div{
+    padding: 2rem 0;
+    width: 30%;
+}
+
+#sectionGetStarted h2, h1, p {
+    padding: 1rem 0;
+}
+
+#sectionGetStarted h1{
+    color: #fdc15f;
+    font-size: 4rem;
+}
+
+#sectionGetStarted h2{
+    font-size: 2rem;
+}
+
+#sectionGetStarted h4{
+    color: #bfbcee;
+}
+
+#sectionGetStarted p{
+line-height: 2rem;
+}
+
+#sectionGetStarted button{
+    border: none;
+    padding: 1rem 4rem
+}
+
+#sectionGetStarted a{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* FOOTER */
+
+.fontFooter{
+    font-size: 15px;
+}
+
+footer{
+    background-color: #333333;
+}
+
+footer > div {
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #9792e4;
 }
