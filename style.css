@@ -14,16 +14,17 @@ body{
     margin: auto;
 }
 
+.boxed2{
+    max-width: 1000px;
+    margin: auto;
+}
+
 img{
     max-width: 100%;
 }
 
 
 
-header{
-    height: 80px;
-    background-color: #0084fd;
-}
 
 
 a{
@@ -72,15 +73,11 @@ a{
 
 /* WIDTH */
 
-.w80{
-    width: 80%;
-}
+.w70{width: 70%;}
 
-.w100{
-    width: 100%;
-}
+.w80{width: 80%;}
 
-
+.w100{width: 100%;}
 
 
 /* FLEX */
@@ -113,6 +110,12 @@ a{
 
 /* HEADER */
 
+
+header{
+    height: 80px;
+    background-color: #0084fd;
+}
+
 header > nav{
     align-items: center;
     height: 100%;
@@ -126,7 +129,6 @@ header > nav{
 
 #logoSection > div > div{
     background-color: #b5ddff;
-    height: 50px;
     height: calc(100%/2 - 30px);
 }
 
@@ -196,6 +198,10 @@ header > nav{
 
 /* BENEFIT SECTION */
 
+#benefitSection{
+    padding-bottom: 4rem;
+}
+
 #benefitSection h2{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -204,9 +210,48 @@ header > nav{
 .benefitBox{
     padding: 10px;
     background-color: white;
+    border-radius: 20px;
 }
 
 #benefitSection h1{
     font-size: 3em;
     padding: 1rem 0 1rem 0;
+}
+
+#benefitSection p {
+    padding: 1rem 0 1rem 0;
+    line-height: 1.5rem;
+    color: grey;
+}
+
+/* ABOUT US SECTION */
+
+#sectionAboutUs h1{
+    font-size: 3em;
+    padding-bottom: 2rem;
+    color: #9792e4;
+}
+
+#sectionAboutUs > div {
+    padding-top: 4rem;
+}
+
+#sectionAboutUs p{
+    padding: 2rem 0 2rem 0;
+    line-height: 2rem;
+}
+
+#sectionAboutUs h3{
+    color: #9792e4;
+    padding: 1rem 0 1rem 0;
+    line-height: 2rem;
+}
+
+#boxImgAbout{
+    width: 16%;
+}
+
+#sectionAboutUs button{
+    border: none;
+    padding: 5px;
 }
