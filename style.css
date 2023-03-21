@@ -38,14 +38,46 @@ a{
     background-color: white;
 }
 
+.bgPurple{
+    background-color: #9792e4;
+}
+
 .textAlign{
     text-align: center;
+}
+
+.gap2rem{
+    gap: 2rem;
+}
+
+.paddingCustomerFeed{
+    padding: 1rem 2rem 2rem 1rem;
+}
+
+.borderRadius50{
+    border-radius: 50%;
+}
+
+.borderRadius30px{
+    border-radius: 30px;
+}
+
+.colorPurple{
+    color: #9792e4;
+}
+
+.colorWhite{
+    color: white;
 }
 
 /* WIDTH */
 
 .w80{
     width: 80%;
+}
+
+.w100{
+    width: 100%;
 }
 
 
@@ -73,9 +105,11 @@ a{
     align-items: center;
 }
 
-.directionColumn{
+.directionCol{
     flex-direction: column;
 }
+
+
 
 /* HEADER */
 
@@ -132,4 +166,47 @@ header > nav{
 
 .bgWhite img{
     width: 60%;
+}
+
+/* CUSTOMER FEEDBACK SECTION */
+
+#customerFeedback{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.customerFeedBox{
+    width: 13%;
+}
+
+.imgCustomerFeed{
+    height: 130px;
+    object-fit: cover;
+}
+
+#customerFeedback  h2{
+    padding: 1rem 0;
+
+}
+
+#customerFeedback p{
+    line-height: 2em;
+    padding-bottom: 1rem;
+}
+
+/* BENEFIT SECTION */
+
+#benefitSection h2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.benefitBox{
+    padding: 10px;
+    background-color: white;
+}
+
+#benefitSection h1{
+    font-size: 3em;
+    padding: 1rem 0 1rem 0;
 }
