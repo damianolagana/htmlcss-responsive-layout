@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 .boxed{
     width: 1200px;
     margin: auto;
@@ -12,18 +16,6 @@
 
 img{
     max-width: 100%;
-}
-
-.flex{
-    display: flex;
-}
-
-.flexWrap{
-    flex-wrap: wrap;
-}
-
-.justifySB{
-    justify-content: space-between;
 }
 
 
@@ -40,6 +32,49 @@ a{
 
 .inLineList{
     list-style-type: none;
+}
+
+.bgWhite{
+    background-color: white;
+}
+
+.textAlign{
+    text-align: center;
+}
+
+/* WIDTH */
+
+.w80{
+    width: 80%;
+}
+
+
+
+
+/* FLEX */
+
+.flex{
+    display: flex;
+}
+
+.flexWrap{
+    flex-wrap: wrap;
+}
+
+.justifySB{
+    justify-content: space-between;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.directionColumn{
+    flex-direction: column;
 }
 
 /* HEADER */
@@ -63,6 +98,8 @@ header > nav{
 
 /* MAIN */
 
+/* Logo SECTION */
+
 #scatolaLoghi{
     height: 90%;
     margin-top: 2rem;
@@ -80,4 +117,19 @@ header > nav{
 #appDevelopSection{
     height: 920px;
     background-color: #9792e4;
+}
+
+/* APP DEVELOPMENT SECTION */
+
+#appDevelopSection > div{
+    height: 90%;
+    align-items: flex-end;
+}
+
+#appDevelopSection > div > div{
+  width: 45%;
+}
+
+.bgWhite img{
+    width: 60%;
 }
