@@ -29,7 +29,9 @@ img{
 }
 
 
-
+.selfAlign{
+    align-self: flex-end;
+}
 
 
 a{
@@ -58,6 +60,11 @@ a{
 
 .paddingCustomerFeed{
     padding: 1rem 2rem 2rem 1rem;
+}
+
+.padding2rem{
+    padding: 2rem;
+
 }
 
 .borderRadius50{
@@ -191,16 +198,28 @@ header button{
 }
 
 #appDevelopSection > div{
-    height: 90%;
-    align-items: flex-end;
+    padding: 3rem 0;
 }
 
-#appDevelopSection > div > div{
-  width: 45%;
+#boxStrategic{
+    width: 45%;
+    padding: 0 2rem;
+}
+
+#boxStrategic img{
+    padding: 3rem 0;
+}
+
+#boxAppDevelop{
+    width: 30%;
 }
 
 .bgWhite img{
     width: 60%;
+}
+
+#appDevelopSection p{
+    line-height: 1.5rem;
 }
 
 /* CUSTOMER FEEDBACK SECTION */
@@ -211,7 +230,8 @@ header button{
 }
 
 .customerFeedBox{
-    width: 13%;
+    width: 230px;
+    height: 200px;
 }
 
 .imgCustomerFeed{
@@ -371,7 +391,7 @@ footer a{
     #appDevelopSection > div{
         flex-wrap: wrap;
     }
-    
+
     .wBox{
         width: calc(100%/2 - 30px);
     }
