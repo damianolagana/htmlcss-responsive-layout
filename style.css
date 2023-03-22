@@ -385,7 +385,7 @@ footer a{
     }
 
     #appDevelopSection > div > div{
-        width: 100%;
+        width: 90%;
     }
 
     #appDevelopSection > div{
@@ -396,4 +396,7 @@ footer a{
         width: calc(100%/2 - 30px);
     }
 
+    #customerFeedback > div > div{
+        width: 90%;
+    }
 }
