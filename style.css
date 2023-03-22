@@ -10,7 +10,7 @@ body{
 }
 
 .boxed{
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -76,6 +76,10 @@ a{
     color: white;
 }
 
+.colorBlue{
+    color: #0084fd;
+}
+
 /* WIDTH */
 
 .w70{width: 70%;}
@@ -126,15 +130,24 @@ header > nav{
     height: 100%;
 }
 
+header button{
+    border: none;
+    padding: 5px 10px;
+}
+
 #logoSection{
-    height: 870px;
     display: flex;
     justify-content: center;
+    padding-bottom: 5rem;
 }
 
 #logoSection > div > div{
     background-color: #b5ddff;
-    height: calc(100%/2 - 30px);
+}
+
+.linkBoxNav{
+    width: 40%;
+    justify-content: space-between;
 }
 
 /* MAIN */
@@ -142,8 +155,8 @@ header > nav{
 /* Logo SECTION */
 
 #scatolaLoghi{
-    height: 90%;
     margin-top: 2rem;
+    gap: 2rem;
     
 }
 
@@ -155,12 +168,27 @@ header > nav{
     width: calc(100%/3 - 30px);
 }
 
-#appDevelopSection{
-    height: 920px;
-    background-color: #9792e4;
+#scatolaLoghi i{
+    font-size: 4em;
+    padding: 1rem 0;
 }
 
+#scatolaLoghi > div{
+    padding: 2rem;
+
+}
+
+#scatolaLoghi p{
+    line-height: 2rem;
+}
+
+
+
 /* APP DEVELOPMENT SECTION */
+
+#appDevelopSection{
+    background-color: #9792e4;
+}
 
 #appDevelopSection > div{
     height: 90%;
@@ -187,7 +215,7 @@ header > nav{
 }
 
 .imgCustomerFeed{
-    height: 130px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -322,4 +350,30 @@ footer > div {
 footer a{
     text-decoration: underline;
     color: #9792e4;
+}
+
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+ /* REGOLE PER TABLET */
+@media screen and (max-width:768px){
+    
+    #scatolaLoghi > div{
+        flex-direction: column;
+    }
+
+    #appDevelopSection > div > div{
+        width: 100%;
+    }
+
+    #appDevelopSection > div{
+        flex-wrap: wrap;
+    }
+    
+    .wBox{
+        width: calc(100%/2 - 30px);
+    }
+
 }
